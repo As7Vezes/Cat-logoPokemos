@@ -1,12 +1,10 @@
 import { useState } from 'react'
+import { ListPokemon } from './components/ListPokemon'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+      <ListPokemon />
   )
 }
 
